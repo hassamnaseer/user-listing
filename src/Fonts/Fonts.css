@@ -1,0 +1,54 @@
+@font-face {
+    font-family: montserrat-thin;
+    src: url("./Montserrat-Thin.otf");
+}
+
+@font-face {
+    font-family: montserrat-extralight;
+    src: url("./Montserrat-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: montserrat-normal;
+    src: url("./Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: montserrat-medium;
+    src: url("./Montserrat-Medium.otf");
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url("./Montserrat-SemiBold.otf");
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url("./Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: montserrat-black;
+    src: url("./Montserrat-Black.otf");
+}
+
+@font-face {
+  font-family: futura;
+  src: url("./Futura-CondensedLight.otf");
+}
+
+@font-face {
+  font-family: futura-medium;
+  src: url("./futura-medium-condensed.ttf");
+}
+
+@font-face {
+  font-family: futura-bold;
+  src: url("./Futura-Bold.ttf");
+}
+
+@font-face {
+  font-family: Vietnam;
+  src: url('./BeVietnam-Regular.ttf');
+}

@@ -1,0 +1,9 @@
+@import "./Fonts/Fonts.css";
+
+body {
+  /* background-image: linear-gradient(rgb(255, 255, 255), rgb(197, 197, 197)) !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important; */
+  text-align: center !important;
+  font-family: 'Vietnam', sans-serif !important;
+}

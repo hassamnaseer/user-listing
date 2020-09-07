@@ -1,0 +1,296 @@
+@import "../../Fonts/Fonts.css";
+
+.img-container {
+  padding: 0px !important;
+  background-image: url("users.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.img-container img {
+  opacity: 0.87;
+  height: 450px;
+}
+
+.img-text {
+  height: 60px;
+  padding: 0;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -30px;
+  color: #c5c5c5;
+  font-family: "montserrat-bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.container-fluid {
+  padding-top: 50px;
+}
+
+.heading {
+  font-family: "montserrat-bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 32px;
+  color: #213f5a;
+  padding: 50px 0 0;
+}
+
+.col-center {
+  margin: 0 auto !important;
+}
+
+.content {
+  float: none;
+  margin: 0 auto !important;
+  padding: 50px 0 0;
+}
+
+.user-container {
+  border: 1px solid #213f5a !important;
+  padding: 25px 50px;
+  margin: 10px 0;
+  box-shadow: 0px 0px 5px 2px #b3b4b4;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-container:hover {
+  -webkit-transform: scale(1.25, 1.25) !important;
+  transform: scale(1.05, 1.05) !important;
+}
+
+.text-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: #213f5a;
+  font-family: "montserrat-medium" !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.avatar {
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #c5c5c5;
+}
+
+.ad {
+  position: relative;
+  border: 1px solid #213f5a !important;
+  padding: 25px 50px 10px;
+  margin: 10px 0;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.ad a,
+.ad a:hover {
+  color: #213f5a;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.close_ad {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.pagination {
+  margin: 30px auto;
+  padding: 0 0 30px;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a {
+  color: #fff;
+  border-bottom: 3px solid #213f5a;
+}
+.pagination > li > a {
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.error_msg_container {
+  padding-top: 50px;
+}
+
+.error_msg {
+  border: 3px solid red;
+  color: red;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .img-container {
+    height: 300px;
+  }
+  
+  .img-container img {
+    height: 300px;
+  }
+
+  .img-text {
+    font-size: 30px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .user-container {
+    padding: 20px 30px;
+    margin: 10px 0;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .avatar {
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .img-container {
+    height: 330px;
+  }
+  
+  .img-container img {
+    height: 330px;
+  }
+
+  .img-text {
+    font-size: 35px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .user-container {
+    padding: 20px 30px;
+    margin: 10px 0;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .avatar {
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .img-container {
+    height: 350px;
+  }
+  
+  .img-container img {
+    height: 350px;
+  }
+
+  .img-text {
+    font-size: 45px;
+  }
+
+  .heading {
+    font-size: 25px;
+  }
+
+  .user-container {
+    padding: 20px 30px;
+    margin: 10px 0;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .img-container {
+    height: 370px;
+  }
+  
+  .img-container img {
+    height: 370px;
+  }
+
+  .img-text {
+    font-size: 50px;
+  }
+
+  .user-container {
+    padding: 20px 30px;
+    margin: 10px 0;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img-container {
+    height: 400px;
+  }
+  
+  .img-container img {
+    height: 400px;
+  }
+
+  .img-text {
+    font-size: 52px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .user-container {
+    padding: 20px 30px;
+    margin: 10px 0;
+  }
+
+  .text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .img-container {
+    height: 450px;
+  }
+  
+  .img-container img {
+    height: 450px;
+  }
+
+  .img-text {
+    font-size: 60px;
+  }
+
+  .avatar {
+    height: 120px;
+  }
+}

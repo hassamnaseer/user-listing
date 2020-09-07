@@ -1,0 +1,59 @@
+@import "../../Fonts/Fonts.css";
+
+header {
+  color: #213F5A;
+  padding: 40px 0;
+}
+
+header a {
+  color: #213F5A;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #213F5A;
+}
+
+.h-heading {
+  font-family: 'montserrat-bold' !important;
+}
+
+.h-heading i {
+  margin-right: 20px !important;
+}
+
+@media screen and (max-width: 480px) {
+  .h-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .h-heading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .h-heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .h-heading {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .h-heading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .h-heading {
+    font-size: 32px;
+  }
+}
